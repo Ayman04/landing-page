@@ -1,0 +1,147 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    margin: 0px;
+}
+
+
+/* section 1 */
+#sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 210px 110px 210px;
+    background-color: #1F2937;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+nav > ul{
+    display: flex;
+    list-style: none;
+}
+ul > li{
+    margin: 0px 30px;
+}
+
+
+#sec1 > div{
+    display: flex;
+}
+#sec1>div>*{
+    flex: 1;
+}
+#sec1 > div > div > h1{
+    font-size: 40px;
+    margin: 2px;
+}
+#sec1 > div > img{
+    width: 1000px;
+    height: 100%;
+    background-color: gray;
+    margin-left: 20px;
+}
+#button1{
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+
+/* section 2 */
+#sec2 > h1{
+    text-align: center;
+    font-size: 35px;
+}
+#sec2 > div{
+    display: flex;
+    justify-content: center;
+    margin: 80px ;
+
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+    border: solid 3px #3882f6;
+    border-radius: 10px;
+}
+#sec2 > div > div{
+    width: 200px;
+    margin: 30px;
+    text-align: center;
+}
+
+/* section 3 */
+
+#sec3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20%;
+    background-color: #e5e7eb;
+}
+
+#zitat{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 300;
+}
+#name{
+    width: 100%;
+    text-align: right;
+    font-size: 19px;
+}
+
+/* section 4 */
+ 
+#sec4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+#sec4 > div{
+    background-color: #3882f6;
+    padding: 20px 50px;
+    width: 70%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sec4 > div > div{
+    color: white;
+}
+
+#sec4 > div > button{
+    font-size: 17px;
+    padding: 10px 40px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border:2px white solid ;
+}
+
+
+/* section 5 */
+
+#sec5{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 30px;
+}
